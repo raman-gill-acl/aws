@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "aws-sdk": "^2.1474.0",
+    "yargs": "^17.7.2"
+  }
+}
