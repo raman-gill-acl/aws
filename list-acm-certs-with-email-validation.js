@@ -3,8 +3,8 @@
 //
 // Usage:
 // aws-vault exec ACCOUNTNAME -- node list-acm-certs-with-email-validation.js
-// aws-vault exec ACCOUNTNAME -- node list-acm-certs-with-email-validation.js --regions="us-west-2 us-east-1"
-// aws-vault exec ACCOUNTNAME -- node list-acm-certs-with-email-validation.js --regions="us-gov-west-1"
+// aws-vault exec ACCOUNTNAME -- node list-acm-certs-with-email-validation.js --region="us-west-2 us-east-1"
+// aws-vault exec ACCOUNTNAME -- node list-acm-certs-with-email-validation.js --region="us-gov-west-1"
 // -----------------------------------------------------
 const AWS = require('aws-sdk');
 const args = require('yargs').argv;
